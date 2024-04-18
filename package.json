@@ -1,0 +1,45 @@
+{
+  "name": "felina",
+  "displayName": "Felina - Dark Theme",
+  "description": "A modern VS Code theme with sleek design and subtle colors.",
+  "version": "0.0.2",
+  "publisher": "veoper",
+  "icon": "images/icon.png",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/veoper/felina-dark-theme"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "sleek",
+    "modern",
+    "colors",
+    "felina",
+    "veoper",
+    "felina-dark-theme"
+  ],
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributors": [
+        {
+            "email": "veoper@outlook.com",
+            "name": "Emir Barbu",
+            "url": "https://github.com/veoper"
+        }
+    ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Felina - Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/veoper-color-theme.json"
+      }
+    ]
+  }
+}
